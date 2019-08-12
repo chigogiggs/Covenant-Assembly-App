@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2154B652230220F700B04799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B651230220F700B04799 /* AppDelegate.swift */; };
+		2154B654230220F700B04799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B653230220F700B04799 /* ViewController.swift */; };
+		2154B657230220F700B04799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2154B655230220F700B04799 /* Main.storyboard */; };
+		2154B65A230220F700B04799 /* Covenant_Assembly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2154B658230220F700B04799 /* Covenant_Assembly.xcdatamodeld */; };
+		2154B65C2302210600B04799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2154B65B2302210600B04799 /* Assets.xcassets */; };
+		2154B65F2302210600B04799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2154B65D2302210600B04799 /* LaunchScreen.storyboard */; };
+		2154B66A2302210900B04799 /* Covenant_AssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B6692302210900B04799 /* Covenant_AssemblyTests.swift */; };
+		2154B6752302210900B04799 /* Covenant_AssemblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B6742302210900B04799 /* Covenant_AssemblyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2154B6662302210900B04799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2154B646230220F600B04799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2154B64D230220F700B04799;
+			remoteInfo = "Covenant Assembly";
+		};
+		2154B6712302210900B04799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2154B646230220F600B04799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2154B64D230220F700B04799;
+			remoteInfo = "Covenant Assembly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2154B64E230220F700B04799 /* Covenant Assembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covenant Assembly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2154B651230220F700B04799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2154B653230220F700B04799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2154B656230220F700B04799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2154B659230220F700B04799 /* Covenant_Assembly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covenant_Assembly.xcdatamodel; sourceTree = "<group>"; };
+		2154B65B2302210600B04799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2154B65E2302210600B04799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2154B6602302210600B04799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2154B6652302210900B04799 /* Covenant AssemblyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covenant AssemblyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2154B6692302210900B04799 /* Covenant_AssemblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covenant_AssemblyTests.swift; sourceTree = "<group>"; };
+		2154B66B2302210900B04799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2154B6702302210900B04799 /* Covenant AssemblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covenant AssemblyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2154B6742302210900B04799 /* Covenant_AssemblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covenant_AssemblyUITests.swift; sourceTree = "<group>"; };
+		2154B6762302210900B04799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2154B64B230220F700B04799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B6622302210900B04799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B66D2302210900B04799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2154B645230220F600B04799 = {
+			isa = PBXGroup;
+			children = (
+				2154B650230220F700B04799 /* Covenant Assembly */,
+				2154B6682302210900B04799 /* Covenant AssemblyTests */,
+				2154B6732302210900B04799 /* Covenant AssemblyUITests */,
+				2154B64F230220F700B04799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2154B64F230220F700B04799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2154B64E230220F700B04799 /* Covenant Assembly.app */,
+				2154B6652302210900B04799 /* Covenant AssemblyTests.xctest */,
+				2154B6702302210900B04799 /* Covenant AssemblyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2154B650230220F700B04799 /* Covenant Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2154B651230220F700B04799 /* AppDelegate.swift */,
+				2154B653230220F700B04799 /* ViewController.swift */,
+				2154B655230220F700B04799 /* Main.storyboard */,
+				2154B65B2302210600B04799 /* Assets.xcassets */,
+				2154B65D2302210600B04799 /* LaunchScreen.storyboard */,
+				2154B6602302210600B04799 /* Info.plist */,
+				2154B658230220F700B04799 /* Covenant_Assembly.xcdatamodeld */,
+			);
+			path = "Covenant Assembly";
+			sourceTree = "<group>";
+		};
+		2154B6682302210900B04799 /* Covenant AssemblyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2154B6692302210900B04799 /* Covenant_AssemblyTests.swift */,
+				2154B66B2302210900B04799 /* Info.plist */,
+			);
+			path = "Covenant AssemblyTests";
+			sourceTree = "<group>";
+		};
+		2154B6732302210900B04799 /* Covenant AssemblyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2154B6742302210900B04799 /* Covenant_AssemblyUITests.swift */,
+				2154B6762302210900B04799 /* Info.plist */,
+			);
+			path = "Covenant AssemblyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2154B64D230220F700B04799 /* Covenant Assembly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2154B6792302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant Assembly" */;
+			buildPhases = (
+				2154B64A230220F700B04799 /* Sources */,
+				2154B64B230220F700B04799 /* Frameworks */,
+				2154B64C230220F700B04799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Covenant Assembly";
+			productName = "Covenant Assembly";
+			productReference = 2154B64E230220F700B04799 /* Covenant Assembly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2154B6642302210900B04799 /* Covenant AssemblyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2154B67C2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyTests" */;
+			buildPhases = (
+				2154B6612302210900B04799 /* Sources */,
+				2154B6622302210900B04799 /* Frameworks */,
+				2154B6632302210900B04799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2154B6672302210900B04799 /* PBXTargetDependency */,
+			);
+			name = "Covenant AssemblyTests";
+			productName = "Covenant AssemblyTests";
+			productReference = 2154B6652302210900B04799 /* Covenant AssemblyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2154B66F2302210900B04799 /* Covenant AssemblyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2154B67F2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyUITests" */;
+			buildPhases = (
+				2154B66C2302210900B04799 /* Sources */,
+				2154B66D2302210900B04799 /* Frameworks */,
+				2154B66E2302210900B04799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2154B6722302210900B04799 /* PBXTargetDependency */,
+			);
+			name = "Covenant AssemblyUITests";
+			productName = "Covenant AssemblyUITests";
+			productReference = 2154B6702302210900B04799 /* Covenant AssemblyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2154B646230220F600B04799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "godwin anyaso";
+				TargetAttributes = {
+					2154B64D230220F700B04799 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2154B6642302210900B04799 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2154B64D230220F700B04799;
+					};
+					2154B66F2302210900B04799 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2154B64D230220F700B04799;
+					};
+				};
+			};
+			buildConfigurationList = 2154B649230220F600B04799 /* Build configuration list for PBXProject "Covenant Assembly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2154B645230220F600B04799;
+			productRefGroup = 2154B64F230220F700B04799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2154B64D230220F700B04799 /* Covenant Assembly */,
+				2154B6642302210900B04799 /* Covenant AssemblyTests */,
+				2154B66F2302210900B04799 /* Covenant AssemblyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2154B64C230220F700B04799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2154B65F2302210600B04799 /* LaunchScreen.storyboard in Resources */,
+				2154B65C2302210600B04799 /* Assets.xcassets in Resources */,
+				2154B657230220F700B04799 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B6632302210900B04799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B66E2302210900B04799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2154B64A230220F700B04799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2154B65A230220F700B04799 /* Covenant_Assembly.xcdatamodeld in Sources */,
+				2154B654230220F700B04799 /* ViewController.swift in Sources */,
+				2154B652230220F700B04799 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B6612302210900B04799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2154B66A2302210900B04799 /* Covenant_AssemblyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2154B66C2302210900B04799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2154B6752302210900B04799 /* Covenant_AssemblyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2154B6672302210900B04799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2154B64D230220F700B04799 /* Covenant Assembly */;
+			targetProxy = 2154B6662302210900B04799 /* PBXContainerItemProxy */;
+		};
+		2154B6722302210900B04799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2154B64D230220F700B04799 /* Covenant Assembly */;
+			targetProxy = 2154B6712302210900B04799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2154B655230220F700B04799 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2154B656230220F700B04799 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2154B65D2302210600B04799 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2154B65E2302210600B04799 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2154B6772302210900B04799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2154B6782302210900B04799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2154B67A2302210900B04799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant Assembly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-Assembly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2154B67B2302210900B04799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant Assembly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-Assembly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2154B67D2302210900B04799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant AssemblyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-AssemblyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Covenant Assembly.app/Covenant Assembly";
+			};
+			name = Debug;
+		};
+		2154B67E2302210900B04799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant AssemblyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-AssemblyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Covenant Assembly.app/Covenant Assembly";
+			};
+			name = Release;
+		};
+		2154B6802302210900B04799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant AssemblyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-AssemblyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Covenant Assembly";
+			};
+			name = Debug;
+		};
+		2154B6812302210900B04799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZCT888RX9R;
+				INFOPLIST_FILE = "Covenant AssemblyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-AssemblyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Covenant Assembly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2154B649230220F600B04799 /* Build configuration list for PBXProject "Covenant Assembly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154B6772302210900B04799 /* Debug */,
+				2154B6782302210900B04799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2154B6792302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant Assembly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154B67A2302210900B04799 /* Debug */,
+				2154B67B2302210900B04799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2154B67C2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154B67D2302210900B04799 /* Debug */,
+				2154B67E2302210900B04799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2154B67F2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2154B6802302210900B04799 /* Debug */,
+				2154B6812302210900B04799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2154B658230220F700B04799 /* Covenant_Assembly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2154B659230220F700B04799 /* Covenant_Assembly.xcdatamodel */,
+			);
+			currentVersion = 2154B659230220F700B04799 /* Covenant_Assembly.xcdatamodel */;
+			path = Covenant_Assembly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2154B646230220F600B04799 /* Project object */;
+}
