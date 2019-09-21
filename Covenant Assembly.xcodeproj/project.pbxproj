@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D8662354B4408D194752336 /* Pods_Covenant_Assembly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB81538CB0E889838D1C71 /* Pods_Covenant_Assembly.framework */; };
+		2105C4BD23068A280047DADD /* Find_us.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2105C4BC23068A280047DADD /* Find_us.storyboard */; };
+		2105C4BF23068C310047DADD /* FindUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105C4BE23068C310047DADD /* FindUsViewController.swift */; };
+		2105C4C123069BAB0047DADD /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105C4C023069BAA0047DADD /* UITextFieldX.swift */; };
+		2105C4C32306C0020047DADD /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105C4C22306C0010047DADD /* UIButtonX.swift */; };
+		2105C4C52306C00F0047DADD /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2105C4C42306C00E0047DADD /* UIViewX.swift */; };
+		210F14E62312A59900568EA0 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210F14E52312A59900568EA0 /* EventViewController.swift */; };
+		214461902302D4FB007FA0B4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2144618F2302D4FB007FA0B4 /* Home.storyboard */; };
+		214461922302D564007FA0B4 /* Livestream.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214461912302D564007FA0B4 /* Livestream.storyboard */; };
+		214461942302DA9D007FA0B4 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214461932302DA9D007FA0B4 /* Collection.storyboard */; };
+		214461962302E060007FA0B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214461952302E060007FA0B4 /* HomeViewController.swift */; };
+		214461A02302EA85007FA0B4 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2144619F2302EA85007FA0B4 /* Events.storyboard */; };
+		214591BA2304101F002D5398 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214591B92304101F002D5398 /* MenuViewController.swift */; };
+		214591BC23041BA4002D5398 /* Slideintransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214591BB23041BA4002D5398 /* Slideintransition.swift */; };
+		214591BE23043148002D5398 /* DesignableX in Resources */ = {isa = PBXBuildFile; fileRef = 214591BD23043147002D5398 /* DesignableX */; };
+		214591C223044DB9002D5398 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214591C123044DB9002D5398 /* CollectionViewController.swift */; };
+		214591C423044DF2002D5398 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214591C323044DF2002D5398 /* CollectionViewCell.swift */; };
+		214591C62304638A002D5398 /* Videos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214591C523046389002D5398 /* Videos.storyboard */; };
+		214591C823047EBE002D5398 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214591C723047EBD002D5398 /* UIViewX.swift */; };
 		2154B652230220F700B04799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B651230220F700B04799 /* AppDelegate.swift */; };
-		2154B654230220F700B04799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B653230220F700B04799 /* ViewController.swift */; };
 		2154B657230220F700B04799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2154B655230220F700B04799 /* Main.storyboard */; };
 		2154B65A230220F700B04799 /* Covenant_Assembly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2154B658230220F700B04799 /* Covenant_Assembly.xcdatamodeld */; };
 		2154B65C2302210600B04799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2154B65B2302210600B04799 /* Assets.xcassets */; };
 		2154B65F2302210600B04799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2154B65D2302210600B04799 /* LaunchScreen.storyboard */; };
 		2154B66A2302210900B04799 /* Covenant_AssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B6692302210900B04799 /* Covenant_AssemblyTests.swift */; };
 		2154B6752302210900B04799 /* Covenant_AssemblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2154B6742302210900B04799 /* Covenant_AssemblyUITests.swift */; };
+		2194F5322312DB1C00B419F9 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194F5312312DB1B00B419F9 /* UILabelX.swift */; };
+		2194F53A2314E20100B419F9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194F5392314E1FC00B419F9 /* TableViewCell.swift */; };
+		2194F53E2315A05200B419F9 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2194F53C2315A04A00B419F9 /* iCarousel.m */; };
+		2194F5402315A1FC00B419F9 /* Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2194F53F2315A1FC00B419F9 /* Gallery.storyboard */; };
+		2194F5422315A5EA00B419F9 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194F5412315A5EA00B419F9 /* GalleryViewController.swift */; };
+		21FDA4E723118C8A00F61E1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21FDA4E623118C8800F61E1E /* GoogleService-Info.plist */; };
+		335CD708A529198D13DEB4C7 /* Pods_Covenant_AssemblyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86119223155AD3FB46BA05 /* Pods_Covenant_AssemblyTests.framework */; };
+		437D6519D5EE12C16833D008 /* Pods_Covenant_AssemblyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B418FE0F541839C9F325C6 /* Pods_Covenant_AssemblyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +61,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207A57194F448FF04DB167F6 /* Pods-Covenant AssemblyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant AssemblyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant AssemblyUITests/Pods-Covenant AssemblyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2105C4BC23068A280047DADD /* Find_us.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Find_us.storyboard; sourceTree = "<group>"; };
+		2105C4BE23068C310047DADD /* FindUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsViewController.swift; sourceTree = "<group>"; };
+		2105C4C023069BAA0047DADD /* UITextFieldX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		2105C4C22306C0010047DADD /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		2105C4C42306C00E0047DADD /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewX.swift; path = DesignableX/UIViewX.swift; sourceTree = "<group>"; };
+		210F14E52312A59900568EA0 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		2144618F2302D4FB007FA0B4 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		214461912302D564007FA0B4 /* Livestream.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Livestream.storyboard; sourceTree = "<group>"; };
+		214461932302DA9D007FA0B4 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		214461952302E060007FA0B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2144619F2302EA85007FA0B4 /* Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
+		214591B92304101F002D5398 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		214591BB23041BA4002D5398 /* Slideintransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slideintransition.swift; sourceTree = "<group>"; };
+		214591BD23043147002D5398 /* DesignableX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DesignableX; sourceTree = "<group>"; };
+		214591C123044DB9002D5398 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		214591C323044DF2002D5398 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		214591C523046389002D5398 /* Videos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Videos.storyboard; sourceTree = "<group>"; };
+		214591C723047EBD002D5398 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewX.swift; path = DesignableX/UIViewX.swift; sourceTree = "<group>"; };
 		2154B64E230220F700B04799 /* Covenant Assembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covenant Assembly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2154B651230220F700B04799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2154B653230220F700B04799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2154B656230220F700B04799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2154B659230220F700B04799 /* Covenant_Assembly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covenant_Assembly.xcdatamodel; sourceTree = "<group>"; };
 		2154B65B2302210600B04799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +93,22 @@
 		2154B6702302210900B04799 /* Covenant AssemblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covenant AssemblyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2154B6742302210900B04799 /* Covenant_AssemblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covenant_AssemblyUITests.swift; sourceTree = "<group>"; };
 		2154B6762302210900B04799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2194F5312312DB1B00B419F9 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		2194F5392314E1FC00B419F9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2194F53B2315A03600B419F9 /* Covenant Assembly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Covenant Assembly-Bridging-Header.h"; sourceTree = "<group>"; };
+		2194F53C2315A04A00B419F9 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		2194F53D2315A05100B419F9 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		2194F53F2315A1FC00B419F9 /* Gallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gallery.storyboard; sourceTree = "<group>"; };
+		2194F5412315A5EA00B419F9 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		21FDA4E623118C8800F61E1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B632B5BEB4BCB204785AE81 /* Pods-Covenant AssemblyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant AssemblyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant AssemblyTests/Pods-Covenant AssemblyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA19F11DE34F8F858AB9949 /* Pods-Covenant Assembly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant Assembly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant Assembly/Pods-Covenant Assembly.debug.xcconfig"; sourceTree = "<group>"; };
+		75B99FA687A85B7D9E335C2F /* Pods-Covenant AssemblyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant AssemblyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant AssemblyUITests/Pods-Covenant AssemblyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		937BED2CCDEB630732A8E55F /* Pods-Covenant Assembly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant Assembly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant Assembly/Pods-Covenant Assembly.release.xcconfig"; sourceTree = "<group>"; };
+		93B418FE0F541839C9F325C6 /* Pods_Covenant_AssemblyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covenant_AssemblyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CB81538CB0E889838D1C71 /* Pods_Covenant_Assembly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covenant_Assembly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE86119223155AD3FB46BA05 /* Pods_Covenant_AssemblyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covenant_AssemblyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F1F2E214436AF57AFFAE51 /* Pods-Covenant AssemblyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covenant AssemblyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Covenant AssemblyTests/Pods-Covenant AssemblyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D8662354B4408D194752336 /* Pods_Covenant_Assembly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335CD708A529198D13DEB4C7 /* Pods_Covenant_AssemblyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +132,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437D6519D5EE12C16833D008 /* Pods_Covenant_AssemblyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214461972302E7E9007FA0B4 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				214461932302DA9D007FA0B4 /* Collection.storyboard */,
+				2144619F2302EA85007FA0B4 /* Events.storyboard */,
+				2154B655230220F700B04799 /* Main.storyboard */,
+				2144618F2302D4FB007FA0B4 /* Home.storyboard */,
+				2194F53F2315A1FC00B419F9 /* Gallery.storyboard */,
+				214461912302D564007FA0B4 /* Livestream.storyboard */,
+				214591C523046389002D5398 /* Videos.storyboard */,
+				2105C4BC23068A280047DADD /* Find_us.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		2144619A2302E928007FA0B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2144619B2302E937007FA0B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2144619C2302E93E007FA0B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				214461952302E060007FA0B4 /* HomeViewController.swift */,
+				214591B92304101F002D5398 /* MenuViewController.swift */,
+				214591BB23041BA4002D5398 /* Slideintransition.swift */,
+				214591C123044DB9002D5398 /* CollectionViewController.swift */,
+				214591C323044DF2002D5398 /* CollectionViewCell.swift */,
+				2105C4BE23068C310047DADD /* FindUsViewController.swift */,
+				210F14E52312A59900568EA0 /* EventViewController.swift */,
+				2194F5392314E1FC00B419F9 /* TableViewCell.swift */,
+				2194F5412315A5EA00B419F9 /* GalleryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		2154B645230220F600B04799 = {
 			isa = PBXGroup;
 			children = (
+				2194F53D2315A05100B419F9 /* iCarousel.h */,
+				2194F53C2315A04A00B419F9 /* iCarousel.m */,
+				2194F5312312DB1B00B419F9 /* UILabelX.swift */,
+				214591C723047EBD002D5398 /* UIViewX.swift */,
+				2105C4C22306C0010047DADD /* UIButtonX.swift */,
+				2105C4C023069BAA0047DADD /* UITextFieldX.swift */,
+				2105C4C42306C00E0047DADD /* UIViewX.swift */,
+				214591BD23043147002D5398 /* DesignableX */,
 				2154B650230220F700B04799 /* Covenant Assembly */,
 				2154B6682302210900B04799 /* Covenant AssemblyTests */,
 				2154B6732302210900B04799 /* Covenant AssemblyUITests */,
 				2154B64F230220F700B04799 /* Products */,
+				749AFC996DFE8ADBCD282D56 /* Pods */,
+				52D57E3420E4B23A7C6FEA25 /* Frameworks */,
+				2194F53B2315A03600B419F9 /* Covenant Assembly-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +218,15 @@
 		2154B650230220F700B04799 /* Covenant Assembly */ = {
 			isa = PBXGroup;
 			children = (
+				2144619C2302E93E007FA0B4 /* Controllers */,
+				2144619B2302E937007FA0B4 /* Models */,
+				2144619A2302E928007FA0B4 /* Views */,
+				214461972302E7E9007FA0B4 /* StoryBoards */,
 				2154B651230220F700B04799 /* AppDelegate.swift */,
-				2154B653230220F700B04799 /* ViewController.swift */,
-				2154B655230220F700B04799 /* Main.storyboard */,
 				2154B65B2302210600B04799 /* Assets.xcassets */,
 				2154B65D2302210600B04799 /* LaunchScreen.storyboard */,
 				2154B6602302210600B04799 /* Info.plist */,
+				21FDA4E623118C8800F61E1E /* GoogleService-Info.plist */,
 				2154B658230220F700B04799 /* Covenant_Assembly.xcdatamodeld */,
 			);
 			path = "Covenant Assembly";
@@ -128,6 +250,29 @@
 			path = "Covenant AssemblyUITests";
 			sourceTree = "<group>";
 		};
+		52D57E3420E4B23A7C6FEA25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB81538CB0E889838D1C71 /* Pods_Covenant_Assembly.framework */,
+				CE86119223155AD3FB46BA05 /* Pods_Covenant_AssemblyTests.framework */,
+				93B418FE0F541839C9F325C6 /* Pods_Covenant_AssemblyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		749AFC996DFE8ADBCD282D56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA19F11DE34F8F858AB9949 /* Pods-Covenant Assembly.debug.xcconfig */,
+				937BED2CCDEB630732A8E55F /* Pods-Covenant Assembly.release.xcconfig */,
+				2B632B5BEB4BCB204785AE81 /* Pods-Covenant AssemblyTests.debug.xcconfig */,
+				D5F1F2E214436AF57AFFAE51 /* Pods-Covenant AssemblyTests.release.xcconfig */,
+				207A57194F448FF04DB167F6 /* Pods-Covenant AssemblyUITests.debug.xcconfig */,
+				75B99FA687A85B7D9E335C2F /* Pods-Covenant AssemblyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2154B6792302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant Assembly" */;
 			buildPhases = (
+				10A468C5FE68E6309D01C94F /* [CP] Check Pods Manifest.lock */,
 				2154B64A230220F700B04799 /* Sources */,
 				2154B64B230220F700B04799 /* Frameworks */,
 				2154B64C230220F700B04799 /* Resources */,
+				09B14260227FE4427FB8351B /* [CP] Embed Pods Frameworks */,
+				231D7E06332CF75C8764CFF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2154B67C2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyTests" */;
 			buildPhases = (
+				31CA5A14A13AF452107C29A0 /* [CP] Check Pods Manifest.lock */,
 				2154B6612302210900B04799 /* Sources */,
 				2154B6622302210900B04799 /* Frameworks */,
 				2154B6632302210900B04799 /* Resources */,
+				8078BA4AA2CBB652E5DD1606 /* [CP] Embed Pods Frameworks */,
+				67B98F316FE8A635A7D678C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2154B67F2302210900B04799 /* Build configuration list for PBXNativeTarget "Covenant AssemblyUITests" */;
 			buildPhases = (
+				217963182FC38D739EC9816F /* [CP] Check Pods Manifest.lock */,
 				2154B66C2302210900B04799 /* Sources */,
 				2154B66D2302210900B04799 /* Frameworks */,
 				2154B66E2302210900B04799 /* Resources */,
+				C5CCEC4455919C57A62782BC /* [CP] Embed Pods Frameworks */,
+				B786AA330E05B304EF060597 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +350,7 @@
 				TargetAttributes = {
 					2154B64D230220F700B04799 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					2154B6642302210900B04799 = {
 						CreatedOnToolsVersion = 10.1;
@@ -232,9 +387,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214461942302DA9D007FA0B4 /* Collection.storyboard in Resources */,
+				2194F5402315A1FC00B419F9 /* Gallery.storyboard in Resources */,
+				214591BE23043148002D5398 /* DesignableX in Resources */,
+				21FDA4E723118C8A00F61E1E /* GoogleService-Info.plist in Resources */,
+				214591C62304638A002D5398 /* Videos.storyboard in Resources */,
+				2105C4BD23068A280047DADD /* Find_us.storyboard in Resources */,
 				2154B65F2302210600B04799 /* LaunchScreen.storyboard in Resources */,
 				2154B65C2302210600B04799 /* Assets.xcassets in Resources */,
+				214461922302D564007FA0B4 /* Livestream.storyboard in Resources */,
+				214461A02302EA85007FA0B4 /* Events.storyboard in Resources */,
 				2154B657230220F700B04799 /* Main.storyboard in Resources */,
+				214461902302D4FB007FA0B4 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +418,186 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09B14260227FE4427FB8351B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Covenant Assembly/Pods-Covenant Assembly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant Assembly/Pods-Covenant Assembly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10A468C5FE68E6309D01C94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covenant Assembly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		217963182FC38D739EC9816F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covenant AssemblyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		231D7E06332CF75C8764CFF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant Assembly/Pods-Covenant Assembly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CA5A14A13AF452107C29A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covenant AssemblyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B98F316FE8A635A7D678C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant AssemblyTests/Pods-Covenant AssemblyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8078BA4AA2CBB652E5DD1606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant AssemblyTests/Pods-Covenant AssemblyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B786AA330E05B304EF060597 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant AssemblyUITests/Pods-Covenant AssemblyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CCEC4455919C57A62782BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Covenant AssemblyUITests/Pods-Covenant AssemblyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2154B64A230220F700B04799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2194F53A2314E20100B419F9 /* TableViewCell.swift in Sources */,
+				2194F5422315A5EA00B419F9 /* GalleryViewController.swift in Sources */,
 				2154B65A230220F700B04799 /* Covenant_Assembly.xcdatamodeld in Sources */,
-				2154B654230220F700B04799 /* ViewController.swift in Sources */,
+				214591C823047EBE002D5398 /* UIViewX.swift in Sources */,
+				210F14E62312A59900568EA0 /* EventViewController.swift in Sources */,
+				2194F5322312DB1C00B419F9 /* UILabelX.swift in Sources */,
+				2105C4C32306C0020047DADD /* UIButtonX.swift in Sources */,
 				2154B652230220F700B04799 /* AppDelegate.swift in Sources */,
+				214591C423044DF2002D5398 /* CollectionViewCell.swift in Sources */,
+				2105C4C52306C00F0047DADD /* UIViewX.swift in Sources */,
+				214461962302E060007FA0B4 /* HomeViewController.swift in Sources */,
+				214591BA2304101F002D5398 /* MenuViewController.swift in Sources */,
+				214591C223044DB9002D5398 /* CollectionViewController.swift in Sources */,
+				214591BC23041BA4002D5398 /* Slideintransition.swift in Sources */,
+				2194F53E2315A05200B419F9 /* iCarousel.m in Sources */,
+				2105C4C123069BAB0047DADD /* UITextFieldX.swift in Sources */,
+				2105C4BF23068C310047DADD /* FindUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +770,10 @@
 		};
 		2154B67A2302210900B04799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA19F11DE34F8F858AB9949 /* Pods-Covenant Assembly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCT888RX9R;
 				INFOPLIST_FILE = "Covenant Assembly/Info.plist";
@@ -445,6 +783,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-Assembly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Covenant Assembly-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,8 +792,10 @@
 		};
 		2154B67B2302210900B04799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937BED2CCDEB630732A8E55F /* Pods-Covenant Assembly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCT888RX9R;
 				INFOPLIST_FILE = "Covenant Assembly/Info.plist";
@@ -463,6 +805,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shareride.Covenant-Assembly";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Covenant Assembly-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +813,7 @@
 		};
 		2154B67D2302210900B04799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B632B5BEB4BCB204785AE81 /* Pods-Covenant AssemblyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +835,7 @@
 		};
 		2154B67E2302210900B04799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F1F2E214436AF57AFFAE51 /* Pods-Covenant AssemblyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +857,7 @@
 		};
 		2154B6802302210900B04799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207A57194F448FF04DB167F6 /* Pods-Covenant AssemblyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +878,7 @@
 		};
 		2154B6812302210900B04799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B99FA687A85B7D9E335C2F /* Pods-Covenant AssemblyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
